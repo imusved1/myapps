@@ -1,0 +1,52 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependencies
+node_modules/
+__pycache__/
+*.py[cod]
+.Python
+venv/
+.venv/
+env/
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Build & coverage
+coverage/
+.coverage
+htmlcov/
+.nyc_output/
+*.tsbuildinfo
+.next/
+out/
+dist/
+target/
+
+# Misc
+.cache/
+*.local
+.turbo/
